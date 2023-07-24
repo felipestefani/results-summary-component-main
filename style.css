@@ -199,3 +199,61 @@ button:hover{
 button:active{
     background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
 }
+
+/*--------------------------- media querie ---------------------------------*/
+@media (max-width: 800px){
+    .container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        min-height: 100vh;
+        box-shadow: none;
+    }
+
+    .results {
+        border-radius: 0 0 40px 40px;
+        width: 100%;
+        padding-bottom: 1em;
+    }
+
+    .circle {
+        padding: 1.5em 2em 1em;
+        margin: 1.5em 0 0.5em;
+    }
+
+    .of{
+        margin-top: 0.2em;
+    }
+
+    .value{
+        font-size: 52px;
+    }
+
+    .result-title{
+        font-size: 24px;
+    }
+
+    .text{
+        padding: 0 2.5em;
+    }
+
+    .summary{
+        padding-top: 1.5em;
+    }
+
+    li{
+        font-size: 16px;
+        width: 85vw;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .attribution {
+        width: 100%;
+        align-self: center;
+        justify-self: center;
+        position: relative;
+    }
+}
